@@ -44,7 +44,7 @@ class Futbolista(Persona, Deportista):
         string = string.format(
             persona=self.getNombre(),
             deporte=self.getDeporte(),
-            edad=self.getNombre(),
+            edad=self.getEdad(),
             anos=self.getAñosPracticando(),
         )
         return string
