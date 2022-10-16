@@ -42,7 +42,7 @@ class Futbolista(Persona, Deportista):
 
         string = "Mi nombre es {persona} soy profesional en el deporte {deporte} Tengo {edad} años de edad y llevo {anos} años en el deporte"
         string.format(
-            nombre=self.getNombre,
+            persona=self.getNombre,
             deporte=self.getDeporte,
             edad=self.getNombre,
             anos=self.getAñosPracticando,
