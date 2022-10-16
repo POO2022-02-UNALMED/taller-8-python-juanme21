@@ -7,8 +7,8 @@ class Futbolista(Persona, Deportista):
     listaFutbolistas = []
 
     def __init__(self, nombre, edad, altura, sex, años, goles, rojas, pierna):
-        Persona.__init__(nombre, edad, altura, sex)
-        Deportista.__init__(años)
+        Persona.__init__(self, nombre, edad, altura, sex)
+        Deportista.__init__(self, años)
         self._golesMarcados = goles
         self._tarjetasRojas = rojas
         self._piernaHabil = pierna
