@@ -15,10 +15,10 @@ class Futbolista(Persona, Deportista):
         Futbolista.listaFutbolistas.append(self)
 
     def setGolesMarcados(self, n):
-        self.__golesMarcados = n
+        self._golesMarcados = n
 
     def getGolesMarcados(self):
-        return self.__golesMarcados
+        return self._golesMarcados
 
     def setTarjetasRojas(self, n):
         self._tarjetasRojas = n
