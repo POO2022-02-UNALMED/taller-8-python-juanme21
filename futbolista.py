@@ -41,7 +41,7 @@ class Futbolista(Persona, Deportista):
     def __str__(self):
 
         string = "Mi nombre es {persona} soy profesional en el deporte {deporte} Tengo {edad} años de edad y llevo {anos} años en el deporte"
-        string.format(
+        string = string.format(
             persona=self.getNombre(),
             deporte=self.getDeporte(),
             edad=self.getNombre(),
